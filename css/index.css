@@ -17,7 +17,7 @@ body{
 }
 
 #title {
-  margin-bottom: 5%;
+  margin-bottom: 1.5%;
 }
 
 #appointment {
@@ -34,16 +34,28 @@ body{
   text-align: center;
 }
 
+.field {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 #number {
   display: inline-block;
+  width: 49px;
 }
 
 #dash {
   display: inline-block;
 }
 
-label {
-  font-weight: normal;
+#submit {
+  margin-top: 5px;
+  width: 258px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #82C58B;
+  color: white;
 }
 
 .footer{
