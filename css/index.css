@@ -27,9 +27,9 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  height: 500px;
+  height: auto;
   background-color:white;
-  opacity: 0.6;
+  opacity: 0.9;
   font-size: 20px;
 }
 
@@ -75,8 +75,140 @@ body{
 
 .content p {
    text-align: center;
-   font-size:40px;
-   
+   font-size:20px;
 }
+
+
+.caption h3 {
+    font-size:40px;
+}
+
+.thumbnail .colom-main {
+    letter-spacing: 0;
+    line-height: 1.1;
+    font-size: 32px;
+    color: #7a7a7a;
+    background-color: #fbfbfb;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #f1f1f1;
+}
+
+.thumbnail h2 span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    opacity: 0.5;
+}
+
+
+.thumbnail {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+.thumbnail .caption {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+
+.colom-main-unlimited {
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-size: 32px;
+    color: white;
+    background-color: #38b0ba;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 6px solid #30969e;
+} 
+
+.col-md-1 {
+    border-width: 8px 8px 8px 8px;
+    border-style: solid;
+    border-color: hsl(183, 57%, 62%);
+    color: #ffffff;
+    background-color: #35b3ba;
+  }
+
+
+
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* card fronts and backs */
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+  background-color: #38b0ba;
+  border: 6px solid #67d0d6;
+}
+
+.card__back {
+  background-color: #38b0ba;
+  border: 6px solid #30969e;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+/* card text */
+.card__text {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 20px;
+  color: #fff;
+  line-height: 20px;
+}
+
+/* hover effect */
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+
 
 
