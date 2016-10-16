@@ -4,7 +4,7 @@ $( function() {
 } );
 
 $(document).ready(function(e) {
-        $('#submit').click(function(){
-				$(this).val("Namaste!");
-			});
-    });
+    $('#submit').click(function(){
+		$(this).val("Namaste!");
+	});
+});
