@@ -20,7 +20,7 @@ body{
   margin-bottom: 1.5%;
 }
 
-#appointment {
+#block {
   margin-top: 5%;
   padding: 1%;
   display: block;
@@ -39,6 +39,20 @@ body{
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+form {
+  display: inline-block;
+}
+
+textarea {
+  height: 220px;
+}
+
+iframe {
+  margin-left: 100px;
+  display: inline-block;
+  height: 71%;
 }
 
 .field {
