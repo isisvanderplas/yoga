@@ -4,3 +4,8 @@ body{
   background: url(images/background2.png);
   background-size: cover;
 }
+
+h2{
+  opacity: 0;
+  
+}
