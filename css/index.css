@@ -153,7 +153,6 @@ body{
   margin-bottom: 50px;
 }
 
-
 /* card fronts and backs */
 .card__front,
 .card__back {
@@ -207,6 +206,76 @@ body{
 .card.effect__hover:hover .card__back {
   -webkit-transform: rotateY(0);
           transform: rotateY(0);
+}
+
+
+
+.col-md-12 h1 {
+  text-align: center;  
+}
+
+
+/*==============*/
+
+.img-thumbnail2 {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  padding-right:25px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.thumbnail2 {
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+
+.img-responsive,
+.thumbnail2 > img,
+.thumbnail2 a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail2 > img,
+.thumbnail2 a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail2:hover,
+a.thumbnail2:focus,
+a.thumbnail2.active {
+  border-color: #337ab7;
+}
+.thumbnail2 .caption {
+  padding: 9px;
+  color: #333;
+}
+
+.media-object.img-thumbnail2 {
+  max-width: none;
+}
+
+p.tekst2 {
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 
