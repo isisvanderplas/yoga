@@ -2,10 +2,14 @@ html {
   padding-top:50px;
 }
 
+
 body{
   background: url(images/backgroundbamboo.png);
   background-size: cover;
 }
+
+
+
 
 .navbar{
   margin-top: 2.5%;
@@ -25,7 +29,7 @@ body{
   height: 500px;
   background-color:white;
   opacity: 0.6;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .footer{
