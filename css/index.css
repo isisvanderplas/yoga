@@ -16,6 +16,10 @@ body{
   font-weight: bold;
 }
 
+.navbar-brand {
+  margin-bottom: 45;
+}
+
 #title {
   margin-bottom: 1.5%;
 }
