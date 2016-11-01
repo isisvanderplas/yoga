@@ -1,0 +1,103 @@
+doctype html
+html
+  head
+    style(type='text/css').
+    link(rel='stylesheet', href='css/bootstrap.css')
+    link(rel='stylesheet', href='css/index.css')
+    link(rel='stylesheet', href='/resources/demos/style.css')
+    link(rel='stylesheet', href='https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css')
+    script(src='https://code.jquery.com/jquery-1.12.4.js')
+    script(src='https://code.jquery.com/ui/1.12.1/jquery-ui.js')
+    script(type='text/javascript', src='javascript/bootstrap.js')
+    script(type='text/javascript', src='javascript/index.js')
+    title Make an appointment
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.html')
+            img(src='css/images/logo.png', width='35', height='auto')
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='yoga.html') Yin Yoga
+            li
+              a(href='pricing.html') Pricing
+            li
+              a(href='appointment.html') Appointment
+            li
+              a(href='about.html') About
+            li
+              a(href='contact.html') Contact
+    #block
+      h1#title(style='text-align:center;')
+        | Book a yoga session
+      p
+        | To plan a session with me, fill in the form and hit send.
+      p
+        | I'll send you a message to confirm our appointment.
+      form.time(action='#', method='post')
+        div
+          input#datepicker.field(type='text', name='Date', placeholder=' Date')
+        select#number.field(name='number')
+          option(selected='selected') 6
+          option 7
+          option 8
+          option 9
+          option 10
+          option 11
+          option 12
+          option 13
+          option 14
+          option 15
+          option 16
+          option 17
+          option 18
+          option 19
+          option 20
+          option 21
+          option 22
+        select#number.field(name='number')
+          option(selected='selected') 00
+          option 15
+          option 30
+          option 45
+        #dash
+          | until
+        select#number.field(name='number')
+          option(selected='selected') 6
+          option 7
+          option 8
+          option 9
+          option 10
+          option 11
+          option 12
+          option 13
+          option 14
+          option 15
+          option 16
+          option 17
+          option 18
+          option 19
+          option 20
+          option 21
+          option 22
+        select#number.field(name='number')
+          option(selected='selected') 00
+          option 15
+          option 30
+          option 45
+        div
+          input.field(type='text', name='user_name', placeholder=' Your name')
+        div
+          input.field(type='email', name='user_email', placeholder=' Your email')
+        div
+          input#submit(type='button', value='Plan your sesh')
+    nav.navbar.navbar-default.navbar-static-top
+      .container
