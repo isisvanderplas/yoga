@@ -1,5 +1,4 @@
 var express = require('express');
-<<<<<<< HEAD
 var pug = require('pug');
 var app = express();
 
