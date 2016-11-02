@@ -39,6 +39,7 @@ body{
 #block {
   margin-top: 5%;
   padding: 1%;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -104,6 +105,8 @@ textarea {
   margin-right: auto;
   background-color: #82C58B;
   color: white;
+  opacity: 0.6;
+  font-size: 20px;
 }
 
 .footer{
@@ -145,6 +148,7 @@ textarea {
  margin-top: 0;
  margin-bottom: 0;
 }
+<<<<<<< HEAD
 
 .content p {
    text-align: center;
@@ -288,7 +292,6 @@ textarea {
 }
 
 
-/*==============*/
 
 .img-thumbnail2 {
   display: inline-block;
