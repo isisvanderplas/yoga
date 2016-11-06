@@ -39,7 +39,6 @@ body{
 #block {
   margin-top: 5%;
   padding: 1%;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -107,6 +106,63 @@ textarea {
   color: white;
   opacity: 0.6;
   font-size: 20px;
+  text-align: center;
+  overflow: auto;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+.about {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.contactform {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+textarea {
+  height: 180px;
+}
+
+.embed-responsive {
+  display: inline-block;
+  height: 55%;
+  width: 50%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.field {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 1px solid #82C58B;
+}
+
+#number {
+  display: inline-block;
+  width: 49px;
+}
+
+#dash {
+  display: inline-block;
+}
+
+#submit {
+  margin-top: 5px;
+  width: 258px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #82C58B;
+  color: white;
 }
 
 .footer{
@@ -148,7 +204,6 @@ textarea {
  margin-top: 0;
  margin-bottom: 0;
 }
-<<<<<<< HEAD
 
 .content p {
    text-align: center;
@@ -291,7 +346,7 @@ textarea {
   text-align: center;
 }
 
-
+/*==============*/
 
 .img-thumbnail2 {
   display: inline-block;
