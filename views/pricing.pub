@@ -1,0 +1,93 @@
+doctype html
+html(lang='en')
+  head
+    title Jade
+    script(type='text/javascript').
+      foo = true;
+      bar = function () {};
+      if (foo) {
+      bar(1 + 5)<!DOCTYPE html>
+      <html>
+      <head>
+      <style type="text/css"></style>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet"  href="css/index.css">
+      <script type = "text/javascript" src="javascript/index.js">
+    title Pricing
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.html')
+            img(src='css/images/logo.png', width='35', height='auto', alt='')
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='yoga.html') Yin Yoga
+            li
+              a(href='pricing.html') Pricing
+            li
+              a(href='appointment.html') Appointment
+            li
+              a(href='about.html') About
+            li
+              a(href='contact.html') Contact
+    .content
+      .row
+        .col-sm-6.col-md-4
+          .thumbnail
+            h2.colom-main
+              One yoga class
+              span 1 CLASS
+            .caption
+              h3 €15
+              h6 €15 per class
+            p
+              Try one class with us,
+              feel free to explore
+            p
+              a.btn.btn-primary(href='#', role='button') Start Now
+        .col-sm-6.col-md-4
+          .thumbnail
+            h2.colom-main-unlimited
+              Unlimited yoga
+              span UNLIMITED CLASSES
+            .caption
+              h3 €80
+              h6 €3,08 per day
+            p 1 month unlimited group classes
+            p
+              a.btn.btn-primary(href='#', role='button') Start Now
+        .col-sm-6.col-md-4
+          .thumbnail
+            h2.colom-main
+              10 yoga classes
+              span 10 CLASSES
+            .caption
+              h3 €125
+              h6 €12,50 per class
+            p 10 classes over the course of 3 months
+            p
+              a.btn.btn-primary(href='#', role='button') Start Now
+      .row
+        .col-md-12
+          .section
+            .section__content.clearfix
+              .card.effect__hover
+                .card__front
+                  span.card__text One Class for Free
+                .card__back
+                  span.card__text
+                    p
+                      a.btn.btn-primary(href='appointment.html', role='button') Start your Free Class Now!
+    nav.navbar.navbar-default.navbar-static-top
+      .container
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
+       }
