@@ -2,6 +2,7 @@ var express = require('express');
 var pug = require('pug');
 var app = express();
 
+
 app.use(express.static(__dirname +  '/'));
 
 app.get('/', function(request, response) {
@@ -24,6 +25,8 @@ app.listen(3000, function() {
   console.log('Example app listening on port 3000!');
 app.use(express.static(__dirname + '/'));
 });
+
+app.use(express.static(__dirname + '/'));
 
 app.get('/', function(request, response) {
   console.log('Requesting home page...');
@@ -56,6 +59,16 @@ app.get('/contact', function(request, response) {
   response.send(pug.renderFile(__dirname + '/views/contact.pug', {}));
 });
 
+
+app.get('/about', function(request, response) {
+  console.log('Requesting contact page....');
+  response.send(pug.renderFile(__dirname + '/views/about.pug', {}));
+});
+
+app.get('/contact', function(request, response) {
+  console.log('Requesting contact page....');
+  response.send(pug.renderFile(__dirname + '/views/contact.pug', {}));
+});
 
 app.listen(3000, function() {
   console.log('Web server started on port 3000');
