@@ -1,0 +1,79 @@
+html {
+  padding-top:50px;
+}
+
+
+body{
+  background: url(images/backgroundbamboo.png);
+  background-size: cover;
+}
+
+
+#mute {
+  margin-top:2.5%;
+  width:40px;
+  height:40px;
+}
+
+.navbar{
+  margin-top: 2.5%;
+  margin-bottom: 0;
+  background-color:white;
+  opacity: 0.6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.content{
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 500px;
+  background-color:white;
+  opacity: 0.6;
+  font-size: 21px;
+}
+
+.footer{
+
+  bottom: 0;
+  margin-bottom: 1.5%;
+  border-width: 1px 0 0;
+  position:fixed;
+  background-color: white;
+  width: 100%;
+  opacity: 0.6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#social-media {
+ width: 100%;
+ text-align: center;
+ margin-bottom: 0;
+ display: inline-block;
+ float: right;
+}
+
+#social-media ul {
+ display: inline-block;
+ padding: 0;
+ margin: 0px;
+}
+
+#social-media li {
+ display: inline-block;
+ float: left;
+}
+
+#social-media li a {
+ display: block;
+ margin-left: 48px;
+ margin-right: 48px;
+ margin-top: 0;
+ margin-bottom: 0;
+}
