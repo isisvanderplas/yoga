@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    style(type='text/css').
+    link(rel='stylesheet', href='css/bootstrap.css')
+    link(rel='stylesheet', href='css/index.css')
+    link(rel='stylesheet', href='/resources/demos/style.css')
+    link(rel='stylesheet', href='https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css')
+    script(src='https://code.jquery.com/jquery-1.12.4.js')
+    script(src='https://code.jquery.com/ui/1.12.1/jquery-ui.js')
+    script(type='text/javascript', src='javascript/bootstrap.js')
+    script(type='text/javascript', src='javascript/index.js')
+    title Contact me
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.html')
+            img(src='css/images/logo.png', width='35', height='auto')
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='yoga.html') Yin Yoga
+            li
+              a(href='pricing.html') Pricing
+            li
+              a(href='appointment.html') Appointment
+            li
+              a(href='about.html') About
+            li
+              a(href='contact.html') Contact
+    #block
+      h1#title(style='text-align:center;')
+        | Send me a message
+      form.contactform(action='#', method='post')
+        div
+          input.field(type='text', name='user_name', placeholder=' Your name')
+        div
+          input.field(type='email', name='user_email', placeholder=' Your email')
+        div
+          textarea.field(type='user_message', placeholder=' Your message')
+        div
+          input#submit(type='button', value='Send your message')
+      iframe.embed-responsive(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.6200234435464!2d4.822221916016576!3d52.34103907978074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e18f7a06520d%3A0x73ee3752b85fc524!2sJohn+M.+Keynesplein+100%2C+1066+EP+Amsterdam!5e0!3m2!1snl!2snl!4v1476617924181', frameborder='0', allowfullscreen='')
+    nav.navbar.navbar-default.navbar-static-top
+      .container
